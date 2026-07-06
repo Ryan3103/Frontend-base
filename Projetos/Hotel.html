@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Vista Serra</h1>
+        <p>Conforto e tranquilidade em meio à natureza</p>
+        <nav>
+            <a href="#acomodacoes">Acomodações</a> |
+            <a href="#comodidades">Comodidades</a> |
+            <a href="#reservas">Reservas</a> |
+            <a href="#contato">Contato</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+
+        <section>
+            <h2 id="acomodacoes">Acomodações</h2>
+            <h3>Quarto Standard</h3>
+            <p>Cama de casal, ar-condicionado, TV a cabo e banheiro privativo. Ideal para viajantes que buscam conforto
+                sem luxo excessivo. <br>A partir de R$ 220,00 / noite
+            </p>
+            <hr>
+
+            <h3>Quarto Deluxe</h3>
+            <p>Cama king size, varanda com vista para a serra, frigobar, TV smart e banheiro com banheira. <br>A partir
+                de R$ 380,00 / noite
+            </p>
+            <hr>
+
+            <h3>Suíte Master</h3>
+            <p>Sala de estar integrada, hidromassagem, vista panorâmica, serviço de quarto 24h e amenities premium.
+                <br>A partir de R$ 650,00 / noite
+            </p>
+            <hr>
+
+            <h3>Chalé Família</h3>
+            <p>Dois quartos, cozinha equipada, lareira e área externa privativa. Perfeito para famílias ou grupos de
+                amigos. <br>A partir de R$ 550,00 / noite
+            </p>
+            <hr>
+        </section>
+
+        <section>
+            <h2 id="comodidades">Comodidades</h2>
+            <ul>
+                <li>Piscina externa aquecida</li>
+                <li>Wi-Fi gratuito em todas as áreas</li>
+                <li>Café da manhã incluso</li>
+                <li>Academia 24 horas</li>
+                <li>Spa e sauna</li>
+                <li>Estacionamento gratuito</li>
+                <li>Restaurante e bar</li>
+                <li>Trilhas ecológicas</li>
+                <li>Aceita animais de estimação</li>
+            </ul>
+            <hr>
+        </section>
+
+        <section>
+            <h2 id="reservas">Reserva de Quarto</h2>
+            <p>Preencha o formulário abaixo para reservar sua estadia:</p>
+
+            <form action="">
+
+                <label for="nome">Nome completo</label> <br>
+                <input type="text" name="nome" id="nome" required> <br>
+
+                <label for="telefone">Telefone</label> <br>
+                <input type="tel" name="telefone" id="telefone" required> <br>
+
+                <label for="email">E-mail</label> <br>
+                <input type="email" name="email" id="email" required> <br>
+
+                <label for="checkin">Data de check-in</label> <br>
+                <input type="date" name="checkin" id="checkin" required> <br>
+
+                <label for="checkout">Data de check-out</label> <br>
+                <input type="date" name="checkout" id="checkout" required> <br>
+
+                <label for="hospedes">Numero de hospedes</label> <br>
+                <input type="number" name="hospedes" id="hospedes" required> <br>
+
+                <label for="acomodacao">Tipo de acomodação</label> <br>
+                <select name="acomodacao" id="acomodacao" required>
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="standard">Quarto Standard</option>
+                    <option value="deluxe">Quarto Deluxe</option>
+                    <option value="master">Suíte Master</option>
+                    <option value="familia">Chalé Família</option>
+                </select> <br>
+
+                <label for="obs">Observações (alergias, ocasião especial, etc.):</label> <br>
+                <textarea name="obs" id="obs"></textarea> <br>
+
+                <button type="submit">Confirmar reserva</button>
+                <button type="reset">Limpar formulario</button>
+                <hr>
+            </form>
+        </section>
+
+        <section>
+            <h2 id="contato">Informações de Contato</h2>
+            <p>Endereço:
+                Estrada da Serra, km 12
+                Campos do Jordão - SP, CEP 12460-000
+                <br> <br>
+                Telefone: (12) 3456-7890
+                WhatsApp: (12) 91234-5678
+                <br> <br>
+                E-mail: contato@hotelvistaserra.com.br
+                <br> <br>
+                Horário de Recepção:
+                Check-in: a partir das 14h
+                Check-out: até as 12h
+                Recepção 24 horas
+            </p>
+
+            <p><strong>redes sociais</strong></p>
+            <a href="youtube.com">youtube</a>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Hotel Vista Serra. Todos os direitos reservados.
+    </footer>
+
+</body>
+
+</html>
